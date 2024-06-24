@@ -1,0 +1,83 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "dev": {
+      "name": "dev",
+      "command": "npm run dev",
+      "runAtStart": true
+    },
+    "dev:client": {
+      "name": "dev:client",
+      "command": "npm run dev:client",
+      "runAtStart": false
+    },
+    "dev:server": {
+      "name": "dev:server",
+      "command": "npm run dev:server",
+      "runAtStart": false
+    },
+    "preview": {
+      "name": "preview",
+      "command": "npm run preview",
+      "runAtStart": false
+    },
+    "test:server": {
+      "name": "test:server",
+      "command": "npm run test:server",
+      "runAtStart": false
+    },
+    "test:client": {
+      "name": "test:client",
+      "command": "npm run test:client",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "bundle:client": {
+      "name": "bundle:client",
+      "command": "npm run bundle:client",
+      "runAtStart": false
+    },
+    "install": {
+      "name": "install",
+      "command": "npm run install",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "npm run start",
+      "runAtStart": false
+    },
+    "update": {
+      "name": "update",
+      "command": "npm run update",
+      "runAtStart": false
+    },
+    "i": {
+      "name": "i",
+      "command": "npm run i",
+      "runAtStart": false
+    },
+    "force-checkout": {
+      "name": "force-checkout",
+      "command": "npm run force-checkout",
+      "runAtStart": false
+    },
+    "switch-to-javascript-mode": {
+      "name": "switch-to-javascript-mode",
+      "command": "npm run switch-to-javascript-mode",
+      "runAtStart": false
+    }
+  }
+}
